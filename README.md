@@ -10,5 +10,5 @@ The sum is calculated concurrently, where every row of the matrix spawns a threa
 $ make main   # Quick compilation; includes linking executable main with object file matrix.o.
 $ make matrix # Compile libs/matrix.c into an object file matrix.o.
 ```
-### Running
-Simply run with `./main <dimensions of matrix>`.
+### Running + cleaning up
+Simply run with `./main <dimensions of matrix>`. To clean all executables / object files, run `make clean`.
