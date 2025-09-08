@@ -1,8 +1,8 @@
 # matrix-sum
 
-Simple program that calculates the sum of all entries of a large matrix. All entries are randomly-generated numbers spanning from 0–99 inclusive — you get to choose the dimensions.
+Simple program that calculates the sum of all entries of a large square matrix. All entries are randomly-generated numbers spanning from 0–99 inclusive — you get to choose the dimension.
 
-The sum is calculated concurrently, where every row of the matrix spawns a thread which calculates the sum of its respective row. Kind of came up with the idea while reviewing for my COMP2017 finals in USyd. 😅
+The sum is calculated concurrently, where a thread is spawned for every row to calculate the (partial) sum of that row. Kind of came up with the idea while reviewing for my COMP2017 finals in USyd. 😅
 
 ## Usage
 ### Compilation
